@@ -1,6 +1,10 @@
 # Getting Started with the Basem's Movies Database App (BMDB)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is one of my react projects that employs my knowledge of Redux, Redux Thunk and state management in general,
+along with the usage of React's Context API to switch the languages.
+For the routing I used react-router-dom.
+The TMDB external movies API was used to get the movies and their info. I communicated with the API using axios.
 
 ## Available Scripts
 
