@@ -1,0 +1,44 @@
+.card {
+  height: 600px !important;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: rgb(13, 110, 253) !important;
+}
+.card-img-top {
+  object-fit: fill;
+  min-height: 429px;
+}
+
+.card:hover > .rating-container {
+  display: flex !important;
+}
+
+.card:hover > .rating-container {
+  animation: dropFromTop 1s ease forwards;
+}
+
+
+.rating-container {
+  height: 429px !important;
+  background-color: rgba(0,0,0,0.7) !important;
+}
+
+.btn {
+  box-shadow: rgba(13, 110, 253, 0.25) 0px 54px 55px, rgba(13, 110, 253, 0.12) 0px -12px 30px, rgba(13, 110, 253, 0.12) 0px 4px 6px, rgba(13, 110, 253, 0.17) 0px 12px 13px, rgba(13, 110, 253, 0.09) 0px -3px 5px !important;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+@keyframes dropFromTop {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}

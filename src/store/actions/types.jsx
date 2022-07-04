@@ -1,0 +1,8 @@
+const actions = {
+  'ADD_TO_FAVOURITES': 'ADD_TO_FAVOURITES',
+  'REMOVE_FROM_FAVOURITES': 'REMOVE_FROM_FAVOURITES',
+  'STORE_ALL_MOVIES': 'STORE_ALL_MOVIES'
+};
+
+
+export default actions;
