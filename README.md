@@ -1,4 +1,4 @@
-# Getting Started with the Basem's Movies Database App (BMDB)
+# Basem's Movies Database App (BMDB)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 This is one of my react projects that employs my knowledge of Redux, Redux Thunk and state management in general,
